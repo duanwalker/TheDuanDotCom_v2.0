@@ -1654,7 +1654,7 @@ transition: opacity .25s ease-in-out;
 				background: #b0e0e6;
 				top:0;
 				left:0;
-				
+				height:50px;
 			}
 
 				#nav a {
