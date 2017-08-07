@@ -1,12 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 @import url("font-awesome.min.css");
 
-/*
-	Astral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -747,31 +741,25 @@
 /* Basic */
 
 	body {
-		/*background-image: url("images/overlay.png"), url("images/bg.jpg");
-		background-repeat: repeat, no-repeat;
-		background-size: auto, 100% 100%;
-		font-family: 'Source Sans Pro', sans-serif;
-		font-weight: 300;
-		color: #777777;*/
-
+		
 		background: #cfe7fa; /* Old browsers */
-background: -moz-linear-gradient(45deg, #cfe7fa 0%, #6393ee 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(45deg, #cfe7fa 0%,#6393ee 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(45deg, #cfe7fa 0%,#6393ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393ee',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+		background: -moz-linear-gradient(45deg, #cfe7fa 0%, #6393ee 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(45deg, #cfe7fa 0%,#6393ee 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(45deg, #cfe7fa 0%,#6393ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393ee',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
 		}
 
-		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
-			-moz-transition: none !important;
-			-webkit-transition: none !important;
-			-ms-transition: none !important;
-			transition: none !important;
-			-moz-animation: none !important;
-			-webkit-animation: none !important;
-			-ms-animation: none !important;
-			animation: none !important;
-		}
+	body.is-loading *, body.is-loading *:before, body.is-loading *:after {
+		-moz-transition: none !important;
+		-webkit-transition: none !important;
+		-ms-transition: none !important;
+		transition: none !important;
+		-moz-animation: none !important;
+		-webkit-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
 
 	input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
@@ -953,66 +941,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', end
 				width: auto;
 			}
 
-/* Button 
 
-	input[type="button"],
-	input[type="submit"],
-	input[type="reset"],
-	button,
-	.button {
-		-webkit-appearance: none;
-		display: inline-block;
-		background-color: #222222;
-		color: #ffffff;
-		border: 0;
-		cursor: pointer;
-		outline: 0;
-		-moz-transition: background-color .25s ease-in-out;
-		-webkit-transition: background-color .25s ease-in-out;
-		-ms-transition: background-color .25s ease-in-out;
-		transition: background-color .25s ease-in-out;
-	}
-
-		input[type="button"]:hover,
-		input[type="submit"]:hover,
-		input[type="reset"]:hover,
-		button:hover,
-		.button:hover {
-			background-color: #333333;
-		}
-
-		input[type="button"]:active,
-		input[type="submit"]:active,
-		input[type="reset"]:active,
-		button:active,
-		.button:active {
-			background-color: #444444;
-		}
-
-		input[type="button"].alt,
-		input[type="submit"].alt,
-		input[type="reset"].alt,
-		button.alt,
-		.button.alt {
-			background-color: #777777;
-		}
-
-			input[type="button"].alt:hover,
-			input[type="submit"].alt:hover,
-			input[type="reset"].alt:hover,
-			button.alt:hover,
-			.button.alt:hover {
-				background-color: #888888;
-			}
-
-			input[type="button"].alt:active,
-			input[type="submit"].alt:active,
-			input[type="reset"].alt:active,
-			button.alt:active,
-			.button.alt:active {
-				background-color: #999999;
-			}
-*/
 /* List */
 
 	ul.default {
