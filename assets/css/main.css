@@ -1111,19 +1111,20 @@ transition: opacity .25s ease-in-out;
 		position: relative;
 		left:0;
 		top: 40%;
-		font-size: .75em;
+		font-size: .70em;
 		font-style: italic;
 		font-family:  'Open Sans', Arial, Helvetice Neue, sans-serif;
+		text-align: center;
 		letter-spacing: -0.015em;
-		margin: 1em 0em 1em 0em; 
+		margin: 1.5em 0em 1.5em 0em; 
 	}
 	#me header > h1 .txt_CTblue {
 	    color: #6d8ec9;
 	}
 	#me p {
+		color:#212121;
 		position: absolute;
 		left: 0;
-		top: 75%;
 		font-size: .85em;
 		font-family:  'Open Sans', Arial, Helvetice Neue, sans-serif;				
 		margin: 1em 0em 1em 0em;
@@ -1140,22 +1141,22 @@ transition: opacity .25s ease-in-out;
 	}
 /*Skills*/	
 #skills h1{
-	font-family:  'Open Sans', Arial, Helvetice Neue, sans-serif;
+	font-family: 'sans-serif','Open Sans', Arial, Helvetice Neue;
 	text-shadow: 1em 1em 2em 0em rgba(0, 0, 0, 0.25) !important;
 	padding-bottom: 18px;
 }
 #skills p{
-	color:#aaa;
+	color:#212121;
+	display: inline;
 	position: relative;
-		left: 0;
-		top: 75%;
-		font-size: .85em;
-		font-family:  'Open Sans', Arial, Helvetice Neue, sans-serif;				
-		margin: 1em 0em 1em 0em;
+	font-size: .85em;
+	font-family:  'sans-serif','Open Sans', Arial, Helvetice Neue;
+	text-align: center;
+	margin: 1em 0em 1em 0em;
 }
 #skills img{
-	width:120px;
-	height: 130px;
+	width:90px;
+	height: 100px;
 	margin-left: 50px;
 }
 /*Portfolio*/
