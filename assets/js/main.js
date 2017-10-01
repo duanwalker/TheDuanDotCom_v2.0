@@ -260,6 +260,25 @@
 	   		 }
 	 		 });
 
+	    $('#htmlRow').hover(
+       			function(){ $('.html-bar').addClass('htmlHover') }
+		)
+		$('#cssRow').hover(
+		       function(){ $('.css-bar').addClass('cssHover') }
+		)
+		$('#jsRow').hover(
+		       function(){ $('.js-bar').addClass('jsHover') }
+		)
+		$('#jQueryRow').hover(
+		       function(){ $('.jq-bar').addClass('jqHover') }
+		)
+		$('#nodeRow').hover(
+		       function(){ $('.node-bar').addClass('nodeHover') }
+		)
+		$('#ngRow').hover(
+		       function(){ $('.ng-bar').addClass('ngHover') }
+		)
+
 	});
 
 })(jQuery);

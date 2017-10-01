@@ -9,6 +9,7 @@
 		<!-- Core CSS -->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link href="assets/css/hover-min.css" rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
@@ -32,20 +33,24 @@
 			<article id="me" class="panel">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-4">
-							<header>
-								<h1>Welcome to <span class="txt_CTblue">Duan.com!</span></h1>
-								<h3 class="text-center">Home of "The Computer Tutor"</h3>
-							
-		                            <p>Hi I'm Duan! But you can call me <b>"The Computer Tutor"</b>. I am a full stack web developer, graphic designer, full time Panthers fan and all around awesome guy in Charlotte, NC. I love football and all forms of art. I also have a deep passion for technology and teaching others about it. Check out some of the cool <a class="jumplink" href="#work">stuff </a> I've done and feel free to drop me a <a class="jumplink" href="#contact">message</a> if you have a project you would like some help with!</p> 
-		                    </header>
-		                    <div class="">
-		                        <button class=" btn btn-lg waves-effect "><a class="txt-primary" href="https://drive.google.com/file/d/0B66xaYRsJwbGemdlaGpBVzdGX1E/view?usp=sharing" role="button">View My Resume <i class="icon fa-download"></i></a></button>
+						<div class="col-md-6">
+							<div class="row">
+								<div class="col-md-12">
+									<header>
+										<h1>Welcome to <span class="txt_CTblue">Duan.com!</span></h1>
+										<h3 class="">Home of "The Computer Tutor"</h3>
+									
+				                            <p>Hi I'm Duan! But you can call me <b>"The Computer Tutor"</b>. I am a full stack web developer, graphic designer, full time Panthers fan and all around awesome guy in Charlotte, NC. I love football and all forms of art. I also have a deep passion for technology and teaching others about it. Check out some of the cool <a class="jumplink" href="#work">stuff </a> I've done, or view my <a class="jumplink" href="#skills">skills</a> and feel free to drop me a <a class="jumplink" href="#contact">message</a> if you have a project you would like some help with!</p> 
+				                    </header>
+		                    	</div>
+		                    </div>
+		                    <div class="row">
+		                        <button type="button" class=" btn btn-primary waves-effect" href="https://drive.google.com/file/d/0B66xaYRsJwbGemdlaGpBVzdGX1E/view?usp=sharing">View My Resume <a class="icon fa-download"></a></button>
 		                    </div>        
 	                    </div>
-	                    <div class="col-md-5">    
+	                    <div class="col-md-6">    
 							<a href="#skills" class="jumplink">
-								<img class="pic" src="assets/css/images/tux.jpg" alt="me" />
+								<img class="pic " src="assets/css/images/tux.jpg" alt="me" />
 							</a>
 						</div>
 					</div>    
@@ -58,52 +63,217 @@
 				<header>
 					<h1>Skills</h1>
 				</header>
-				<div class="container">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="skills-logo">
-                                <img class="image hvr-buzz-out" src="assets/css/images/html5.png" />
-                                <p class="text-center"><i>HTML5</i></p>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="skills-logo">
-                                <img class="image hvr-pop" src="assets/css/images/css3.png" />
-                                <p><i>CSS3</i></p>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="skills-logo">
-                                <img class="image hvr-bounce-out" src="assets/css/images/js.png" />
-                                <p><i>JavaScript</i></p>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="skills-logo">
-                                <img class="image hvr-buzz-out" src="assets/css/images/jquery.png" />
-                                <p><i>JQuery</i></p>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="skills-logo">
-                                <img class="image hvr-pop" src="assets/css/images/nodejs.png" />
-                                <p><i>NodeJS</i></p>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="skills-logo">
-                                <img class="image hvr-bounce-out" src="assets/css/images/angularjs.png" />
-                                <p><i>AngularJS</i></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class=" row">
-                        <div class="col-md-12 skills-description">
-                            <p> During my 7 year career as a developer, I have contributed to the full SDLC from requirements gathering to deployment on multiple corporate and open source projects. After work, I teach a Javascript class at UNC Charlotte and during the day I build .Net applications for ETL data transformations. In my free time, I design mobile friendly web applications using tools such as <b>HTML5</b>, <b>CSS3</b>, <b>Javascript</b>, <b>Materialize</b> and <b>Bootstrap</b> for a fully responsive layout. Click <a class="jumplink" href="#work"><span><i>HERE</i></span></a> to learn more!</p>
-                        </div>
-                    </div>
-                </div>	
+				<p>mouse over tiles to see my skill measurements</p>
+			  <div id="skillsPanel">
+			    <div class='container'>
+			      <div id='htmlRow' class='row '>
+			        <div class="col-md-6 skills-logo">
+			          <img class="image hvr-buzz-out" src="assets/css/images/html5.png" />
+			          <label>HTML5</label>
+			        </div>
+			        <div class="col-md-6">
+			          <div class="row">
+			            <div class=" labels">
+			              <div class="col-md-2">
+			                <span>Beginner</span>
+			              </div>
+			              <div class="col-md-2">
+			                <span>Novice</span>
+			              </div>
+			              <div class="col-md-2">
+			                <span>Expert</span>
+			              </div>
+			            </div>
+			          </div>
+			          <div class="row">
+			            <div class="col-md-12">
+			              <div class="gauge"><div>0</div><div> | </div><div> | </div><div> | </div><div> | </div><div>5</div><div> | </div><div> | </div><div> | </div><div> | </div><div> 10 </div></div>
+			            </div>
+			          </div>
+			          <div id='htmlSkill' class='row'>
+			            <div class="col-md-12">
+			              <div class='html-bar-bkgnd'>
+			                <div class='html-bar'></div>
+			              </div>
+			            </div>
+			          </div>
+			        </div>
+			      </div>
+			      <!--endhtmlrow-->
+			      <div id='cssRow' class='row '>
+			        <div class="col-md-6 skills-logo">
+			          <img class="image hvr-pop" src="assets/css/images/css3.png" />
+			          <label>CSS3</label>
+			        </div>
+			        <div class="col-md-6">
+			          <div class="row">
+			            <div class=" labels">
+			              <div class="col-md-2">
+			                <span>Beginner</span>
+			              </div>
+			              <div class="col-md-2">
+			                <span>Novice</span>
+			              </div>
+			              <div class="col-md-2">
+			                <span>Expert</span>
+			              </div>
+			            </div>
+			          </div>
+			          <div class="row">
+			            <div class="col-md-12">
+			              <div class="gauge"><div>0</div><div> | </div><div> | </div><div> | </div><div> | </div><div>5</div><div> | </div><div> | </div><div> | </div><div> | </div><div> 10 </div></div>
+			            </div>
+			          </div>
+			          <div id='cssSkill' class='row'>
+			            <div class="col-md-12">
+			              <div class='css-bar-bkgnd'>
+			                <div class='css-bar'></div>
+			              </div>
+			            </div>
+			          </div>
+			        </div>
+			      </div>
+			      <!--endcssrow-->
+			      <div id='jsRow' class='row '>
+			        <div class="col-md-6 skills-logo">
+			          <img class="image hvr-bounce-out" src="assets/css/images/js.png" />
+			          <label>JavaScript</label>
+			        </div>
+			        <div class="col-md-6">
+			          <div class="row">
+			            <div class=" labels">
+			              <div class="col-md-2">
+			                <span>Beginner</span>
+			              </div>
+			              <div class="col-md-2">
+			                <span>Novice</span>
+			              </div>
+			              <div class="col-md-2">
+			                <span>Expert</span>
+			              </div>
+			            </div>
+			          </div>
+			          <div class="row">
+			            <div class="col-md-12">
+			              <div class="gauge"><div>0</div><div> | </div><div> | </div><div> | </div><div> | </div><div>5</div><div> | </div><div> | </div><div> | </div><div> | </div><div> 10 </div></div>
+			            </div>
+			          </div>
+			          <div id='jsSkill' class='row'>
+			            <div class="col-md-12">
+			              <div class='js-bar-bkgnd'>
+			                <div class='js-bar'></div>
+			              </div>
+			            </div>
+			          </div>
+			        </div>
+			      </div>
+			      <!--endjsrow-->
+			      <div id='jQueryRow' class='row '>
+			        <div class="col-md-6 skills-logo">
+			          <img class="image hvr-buzz-out" src="assets/css/images/jquery.png" />
+			          <label>jQuery</label>
+			        </div>
+			        <div class="col-md-6">
+			          <div class="row">
+			            <div class=" labels">
+			              <div class="col-md-2">
+			                <span>Beginner</span>
+			              </div>
+			              <div class="col-md-2">
+			                <span>Novice</span>
+			              </div>
+			              <div class="col-md-2">
+			                <span>Expert</span>
+			              </div>
+			            </div>
+			          </div>
+			          <div class="row">
+			            <div class="col-md-12">
+			              <div class="gauge"><div>0</div><div> | </div><div> | </div><div> | </div><div> | </div><div>5</div><div> | </div><div> | </div><div> | </div><div> | </div><div> 10 </div></div>
+			            </div>
+			          </div>
+			          <div id='jQuerySkill' class='row'>
+			            <div class="col-md-12">
+			              <div class='jq-bar-bkgnd'>
+			                <div class='jq-bar'></div>
+			              </div>
+			            </div>
+			          </div>
+			        </div>
+			      </div>
+			      <!--endjQueryrow-->
+			      <div id='nodeRow' class='row '>
+			        <div class="col-md-6 skills-logo">
+			          <img class="image hvr-pop" src="assets/css/images/nodejs.png" />
+			          <label>Node.js</label>
+			        </div>
+			        <div class="col-md-6">
+			          <div class="row">
+			            <div class=" labels">
+			              <div class="col-md-2">
+			                <span>Beginner</span>
+			              </div>
+			              <div class="col-md-2">
+			                <span>Novice</span>
+			              </div>
+			              <div class="col-md-2">
+			                <span>Expert</span>
+			              </div>
+			            </div>
+			          </div>
+			          <div class="row">
+			            <div class="col-md-12">
+			              <div class="gauge"><div>0</div><div> | </div><div> | </div><div> | </div><div> | </div><div>5</div><div> | </div><div> | </div><div> | </div><div> | </div><div> 10 </div></div>
+			            </div>
+			          </div>
+			          <div id='nodeSkill' class='row'>
+			            <div class="col-md-12">
+			              <div class='node-bar-bkgnd'>
+			                <div class='node-bar'></div>
+			              </div>
+			            </div>
+			          </div>
+			        </div>
+			      </div>
+			      <!--endnoderow-->
+			      <div id='ngRow' class='row '>
+			        <div class="col-md-6 skills-logo">
+			          <img class="image hvr-pop" src="assets/css/images/angularjs.png" />
+			          <label>Angular2</label>
+			        </div>
+			        <div class="col-md-6">
+			          <div class="row">
+			            <div class=" labels">
+			              <div class="col-md-2">
+			                <span>Beginner</span>
+			              </div>
+			              <div class="col-md-2">
+			                <span>Novice</span>
+			              </div>
+			              <div class="col-md-2">
+			                <span>Expert</span>
+			              </div>
+			            </div>
+			          </div>
+			          <div class="row">
+			            <div class="col-md-12">
+			              <div class="gauge"><div>0</div><div> | </div><div> | </div><div> | </div><div> | </div><div>5</div><div> | </div><div> | </div><div> | </div><div> | </div><div> 10 </div></div>
+			            </div>
+			          </div>
+			          <div id='ngSkill' class='row'>
+			            <div class="col-md-12">
+			              <div class='ng-bar-bkgnd'>
+			                <div class='ng-bar'></div>
+			              </div>
+			            </div>
+			          </div>
+			        </div>
+			      </div><!--endangularrow-->
+			      <div class="row">
+			      	<div class="col-md-12 skills-description">
+			      	<p> I am a seasoned developer and have contributed to the full SDLC from requirements gathering to deployment on multiple corporate, freelance and open source projects. After work, I teach a Javascript class at UNC Charlotte where students learn the MEAN (Mongo,Ember,Angular,Node) stack. During the day, I use SSIS, command line tools, and build custom .Net applications for ETL data transformations on my current role. In my free time, I design mobile friendly web applications using tools such as <b>HTML5, </b><b>CSS3, </b><b>JavaScript, </b>and <b>BootStrap </b>for a fully responsive layout. Click <a class="jumplink" href="#work">here </a>to see some of my work! </p>
+			      	</div>
+			      </div>
 			</article>
 		</section>
 		<!-- Work -->
@@ -237,7 +407,9 @@
 				</div>
 		</div>
 	<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
 		<script src="assets/js/skel.min.js"></script>
 		<script src="assets/js/skel-viewport.min.js"></script>
 		<script src="assets/js/util.js"></script>
