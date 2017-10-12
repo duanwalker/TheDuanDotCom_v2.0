@@ -248,10 +248,10 @@
 
 	        //sticky nav bar
 	        $(window).scroll(function () {
-	      //if you hard code, then use console
-	      //.log to determine when you want the 
+
+	      //use console .log to determine when you want the 
 	      //nav bar to stick.  
-	     		 console.log($(window).scrollTop())
+	     		// console.log($(window).scrollTop())
 	    		if ($(window).scrollTop() > 63) {
 	     		 $('#nav').addClass('navbar-fixed');
 	   		 }
@@ -261,22 +261,40 @@
 	 		 });
 
 	    $('#htmlRow').hover(
-       			function(){ $('.html-bar').addClass('htmlHover') }
+       			function(){ 
+       				$('.html-bar').addClass('htmlHover');
+       				$('.html-notch').addClass('hover-html-notch')
+       			 }
 		)
 		$('#cssRow').hover(
-		       function(){ $('.css-bar').addClass('cssHover') }
+		       function(){ 
+		       	$('.css-bar').addClass('cssHover')
+		       	$('.css-notch').addClass('hover-css-notch')
+		       	 }
 		)
 		$('#jsRow').hover(
-		       function(){ $('.js-bar').addClass('jsHover') }
+		       function(){ 
+		       	$('.js-bar').addClass('jsHover')
+		       	$('.js-notch').addClass('hover-js-notch')	
+		        }
 		)
 		$('#jQueryRow').hover(
-		       function(){ $('.jq-bar').addClass('jqHover') }
+		       function(){ 
+		       	$('.jq-bar').addClass('jqHover')
+		       	$('.jq-notch').addClass('hover-jq-notch')
+		       	 }
 		)
 		$('#nodeRow').hover(
-		       function(){ $('.node-bar').addClass('nodeHover') }
+		       function(){ 
+		       	$('.node-bar').addClass('nodeHover')
+		       	$('.node-notch').addClass('hover-node-notch')
+		       	 }
 		)
 		$('#ngRow').hover(
-		       function(){ $('.ng-bar').addClass('ngHover') }
+		       function(){ 
+		       	$('.ng-bar').addClass('ngHover')
+		       	$('.ng-notch').addClass('hover-ng-notch')
+		       	 }
 		)
 
 	});
