@@ -988,7 +988,8 @@ transition: opacity .25s ease-in-out;
 	float:right;
 	right: 0;
 	top: 0;
-	height: 20em;
+	height: 100%;
+	width: 100%;
 }
 
 #me header {
