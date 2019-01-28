@@ -260,6 +260,31 @@
 	   		 }
 	 		 });
 
+
+	    $('#ASPdotNetRow').hover(
+       			function(){ 
+       				$('.asp-bar').addClass('aspHover');
+       				$('.asp-notch').addClass('hover-asp-notch')
+       			 }
+		)
+		$('#cSharpRow').hover(
+       			function(){ 
+       				$('.cSharp-bar').addClass('cSharpHover');
+       				$('.cSharp-notch').addClass('hover-cSharp-notch')
+       			 }
+		) 
+		$('#SQLRow').hover(
+       			function(){ 
+       				$('.SQL-bar').addClass('SQLHover');
+       				$('.SQL-notch').addClass('hover-SQL-notch')
+       			 }
+		)        
+		$('#VSRow').hover(
+       			function(){ 
+       				$('.VS-bar').addClass('VSHover');
+       				$('.VS-notch').addClass('hover-VS-notch')
+       			 }
+		)                   
 	    $('#htmlRow').hover(
        			function(){ 
        				$('.html-bar').addClass('htmlHover');
@@ -270,6 +295,12 @@
 		       function(){ 
 		       	$('.css-bar').addClass('cssHover')
 		       	$('.css-notch').addClass('hover-css-notch')
+		       	 }
+		)
+		$('#bootStrapRow').hover(
+		       function(){ 
+		       	$('.bootStrap-bar').addClass('bootStrapHover')
+		       	$('.bootStrap-notch').addClass('hover-bootStrap-notch')
 		       	 }
 		)
 		$('#jsRow').hover(
@@ -296,7 +327,12 @@
 		       	$('.ng-notch').addClass('hover-ng-notch')
 		       	 }
 		)
-
+		$('#GitRow').hover(
+		       function(){ 
+		       	$('.Git-bar').addClass('GitHover')
+		       	$('.Git-notch').addClass('hover-Git-notch')
+		       	 }
+		)
 	});
 
 })(jQuery);

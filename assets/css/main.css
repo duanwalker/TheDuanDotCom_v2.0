@@ -1066,8 +1066,8 @@ transition: opacity .25s ease-in-out;
 #skills img{
 	 margin-top:15px;
   margin-bottom:3px;
-  width:50px;
-  height:60px;
+  width:65px;
+  height:75px;
 }
 #skills label{
   margin-top:15px;
@@ -1082,7 +1082,7 @@ transition: opacity .25s ease-in-out;
 		position: relative;
 		left: 0;
 		top:0;
-		font-size: .82em;
+		font-size: .80em;
 		font-family:  'Open Sans', Arial, Helvetice Neue, sans-serif;				
 		margin: 2em 3em 1em 0em;
 }
@@ -1091,7 +1091,7 @@ transition: opacity .25s ease-in-out;
   display: -webkit-flex;
   -webkit-justify-content: space-around;
     justify-content: space-around;
-  font-size:10px;
+  font-size:8px;
   margin:3px;
 }
 .gauge{
@@ -1107,7 +1107,47 @@ transition: opacity .25s ease-in-out;
 /*   width:270px;
   border:1px solid black; */
 }
-
+/*start panels*/
+#ASPdotNetRow{
+  border:1px solid black;
+  border-radius:15px;
+  -webkit-border-radius:15px;
+  -moz-border-radius:15px;
+   box-shadow:  0 8px 6px -6px black;
+  -moz-box-shadow:  0 8px 6px -6px black;
+  -webkit-box-shadow:  8px 8px 6px -6px black;
+  margin:5px 0px 5px 0px;
+}
+#cSharpRow{
+  border:1px solid black;
+  border-radius:15px;
+  -webkit-border-radius:15px;
+  -moz-border-radius:15px;
+   box-shadow:  0 8px 6px -6px black;
+  -moz-box-shadow:  0 8px 6px -6px black;
+  -webkit-box-shadow:  8px 8px 6px -6px black;
+  margin:5px 0px 5px 0px;
+}
+#SQLRow{
+  border:1px solid black;
+  border-radius:15px;
+  -webkit-border-radius:15px;
+  -moz-border-radius:15px;
+   box-shadow:  0 8px 6px -6px black;
+  -moz-box-shadow:  0 8px 6px -6px black;
+  -webkit-box-shadow:  8px 8px 6px -6px black;
+  margin:5px 0px 5px 0px;
+}
+#VSRow{
+  border:1px solid black;
+  border-radius:15px;
+  -webkit-border-radius:15px;
+  -moz-border-radius:15px;
+   box-shadow:  0 8px 6px -6px black;
+  -moz-box-shadow:  0 8px 6px -6px black;
+  -webkit-box-shadow:  8px 8px 6px -6px black;
+  margin:5px 0px 5px 0px;
+}
 #htmlRow{
   border:1px solid black;
   border-radius:15px;
@@ -1119,6 +1159,26 @@ transition: opacity .25s ease-in-out;
   margin:5px 0px 5px 0px;
 }
 #cssRow{
+  border:1px solid black;
+  border-radius:15px;
+  -webkit-border-radius:15px;
+  -moz-border-radius:15px;
+   box-shadow:  0 8px 6px -6px black;
+  -moz-box-shadow:  0 8px 6px -6px black;
+  -webkit-box-shadow:  8px 8px 6px -6px black;
+  margin:5px 0px 5px 0px;
+}
+#GitRow{
+  border:1px solid black;
+  border-radius:15px;
+  -webkit-border-radius:15px;
+  -moz-border-radius:15px;
+   box-shadow:  0 8px 6px -6px black;
+  -moz-box-shadow:  0 8px 6px -6px black;
+  -webkit-box-shadow:  8px 8px 6px -6px black;
+  margin:5px 0px 5px 0px;
+}
+#bootStrapRow{
   border:1px solid black;
   border-radius:15px;
   -webkit-border-radius:15px;
@@ -1167,6 +1227,210 @@ transition: opacity .25s ease-in-out;
   -moz-box-shadow:  0 8px 6px -6px black;
   -webkit-box-shadow:  8px 8px 6px -6px black;
   margin:5px 0px 5px 0px;
+}
+/*start asp gauge*/
+.asp-bar-bkgnd{
+  background:grey;
+  height:20px;
+  width:100%;
+/*   border:1px solid black; */
+  border-radius:15px;
+  -moz-border-radius:15px;
+  -webkit-border-radius:15px;
+  box-shadow: inset 0 8px 6px -6px black;
+  -moz-box-shadow: inset 0 8px 6px -6px black;
+  -webkit-box-shadow: inset 0 8px 6px -6px black;
+  margin:10px 0px 10px 0px;
+}
+.asp-notch{
+  position: relative;
+  background:white;
+  border:1px solid grey;
+  height:20px;
+  width:20px;
+/*   border:1px solid black; */
+  border-radius:15px;
+  -moz-border-radius:15px;
+  -webkit-border-radius:15px;
+  box-shadow:  inset 0 5px 15px -5px black;
+  -moz-box-shadow:  inset 0 5px 15px -5px black;
+  -moz-box-shadow:  inset 0 5px 15px -5px black;
+}
+.asp-bar{
+  background:green;
+  height:20px;
+  width:20px;
+/*   border:1px solid black; */
+  border-radius:15px;
+  -moz-border-radius:15px;
+  -webkit-border-radius:15px;
+  box-shadow:  inset 0 5px 15px -5px black;
+  -moz-box-shadow:  inset 0 5px 15px -5px black;
+  -moz-box-shadow:  inset 0 5px 15px -5px black;
+ 
+}
+.aspHover{
+  width:100%;
+  -webkit-transition: width 1.7s; /* Safari */
+    transition: width 1.7s;
+}
+.hover-asp-notch{
+	left: 95%;
+	-webkit-transition: left 1.7s; /* Safari */
+    transition: left 1.7s;
+}
+/*start csharp gauge*/
+.cSharp-bar-bkgnd{
+  background:grey;
+  height:20px;
+  width:100%;
+/*   border:1px solid black; */
+  border-radius:15px;
+  -moz-border-radius:15px;
+  -webkit-border-radius:15px;
+  box-shadow: inset 0 8px 6px -6px black;
+  -moz-box-shadow: inset 0 8px 6px -6px black;
+  -webkit-box-shadow: inset 0 8px 6px -6px black;
+  margin:10px 0px 10px 0px;
+}
+.cSharp-notch{
+  position: relative;
+  background:white;
+  border:1px solid grey;
+  height:20px;
+  width:20px;
+/*   border:1px solid black; */
+  border-radius:15px;
+  -moz-border-radius:15px;
+  -webkit-border-radius:15px;
+  box-shadow:  inset 0 5px 15px -5px black;
+  -moz-box-shadow:  inset 0 5px 15px -5px black;
+  -moz-box-shadow:  inset 0 5px 15px -5px black;
+}
+.cSharp-bar{
+  background:green;
+  height:20px;
+  width:20px;
+/*   border:1px solid black; */
+  border-radius:15px;
+  -moz-border-radius:15px;
+  -webkit-border-radius:15px;
+  box-shadow:  inset 0 5px 15px -5px black;
+  -moz-box-shadow:  inset 0 5px 15px -5px black;
+  -moz-box-shadow:  inset 0 5px 15px -5px black;
+ 
+}
+.cSharpHover{
+  width:75%;
+  -webkit-transition: width 1.7s; /* Safari */
+    transition: width 1.7s;
+}
+.hover-cSharp-notch{
+	left: 95%;
+	-webkit-transition: left 1.7s; /* Safari */
+    transition: left 1.7s;
+}
+/*start SQL gauge*/
+.SQL-bar-bkgnd{
+  background:grey;
+  height:20px;
+  width:100%;
+/*   border:1px solid black; */
+  border-radius:15px;
+  -moz-border-radius:15px;
+  -webkit-border-radius:15px;
+  box-shadow: inset 0 8px 6px -6px black;
+  -moz-box-shadow: inset 0 8px 6px -6px black;
+  -webkit-box-shadow: inset 0 8px 6px -6px black;
+  margin:10px 0px 10px 0px;
+}
+.SQL-notch{
+  position: relative;
+  background:white;
+  border:1px solid grey;
+  height:20px;
+  width:20px;
+/*   border:1px solid black; */
+  border-radius:15px;
+  -moz-border-radius:15px;
+  -webkit-border-radius:15px;
+  box-shadow:  inset 0 5px 15px -5px black;
+  -moz-box-shadow:  inset 0 5px 15px -5px black;
+  -moz-box-shadow:  inset 0 5px 15px -5px black;
+}
+.SQL-bar{
+  background:green;
+  height:20px;
+  width:20px;
+/*   border:1px solid black; */
+  border-radius:15px;
+  -moz-border-radius:15px;
+  -webkit-border-radius:15px;
+  box-shadow:  inset 0 5px 15px -5px black;
+  -moz-box-shadow:  inset 0 5px 15px -5px black;
+  -moz-box-shadow:  inset 0 5px 15px -5px black;
+ 
+}
+.SQLHover{
+  width:58%;
+  -webkit-transition: width 1.7s; /* Safari */
+    transition: width 1.7s;
+}
+.hover-SQL-notch{
+	left: 95%;
+	-webkit-transition: left 1.7s; /* Safari */
+    transition: left 1.7s;
+}
+/*start VS gauge*/
+.VS-bar-bkgnd{
+  background:grey;
+  height:20px;
+  width:100%;
+/*   border:1px solid black; */
+  border-radius:15px;
+  -moz-border-radius:15px;
+  -webkit-border-radius:15px;
+  box-shadow: inset 0 8px 6px -6px black;
+  -moz-box-shadow: inset 0 8px 6px -6px black;
+  -webkit-box-shadow: inset 0 8px 6px -6px black;
+  margin:10px 0px 10px 0px;
+}
+.VS-notch{
+  position: relative;
+  background:white;
+  border:1px solid grey;
+  height:20px;
+  width:20px;
+/*   border:1px solid black; */
+  border-radius:15px;
+  -moz-border-radius:15px;
+  -webkit-border-radius:15px;
+  box-shadow:  inset 0 5px 15px -5px black;
+  -moz-box-shadow:  inset 0 5px 15px -5px black;
+  -moz-box-shadow:  inset 0 5px 15px -5px black;
+}
+.VS-bar{
+  background:green;
+  height:20px;
+  width:20px;
+/*   border:1px solid black; */
+  border-radius:15px;
+  -moz-border-radius:15px;
+  -webkit-border-radius:15px;
+  box-shadow:  inset 0 5px 15px -5px black;
+  -moz-box-shadow:  inset 0 5px 15px -5px black;
+  -moz-box-shadow:  inset 0 5px 15px -5px black;
+ 
+}
+.VSHover{
+  width:78%;
+  -webkit-transition: width 1.7s; /* Safari */
+    transition: width 1.7s;
+}
+.hover-VS-notch{
+	left: 95%;
+	-webkit-transition: left 1.7s; /* Safari */
+    transition: left 1.7s;
 }
 
 .html-bar-bkgnd{
@@ -1267,7 +1531,55 @@ transition: opacity .25s ease-in-out;
   -webkit-transition: left 1.7s; /* Safari */
     transition: left 1.7s;
 }
-
+/* start bootstrap*/
+.bootStrap-bar-bkgnd{
+  background:grey;
+  height:20px;
+  width:100%;
+  /*border:1px solid black;*/
+  border-radius:15px;
+  -moz-border-radius:15px;
+  -webkit-border-radius:15px;
+  box-shadow: inset 0 8px 6px -6px black;
+  -moz-box-shadow: inset 0 8px 6px -6px black;
+  -webkit-box-shadow: inset 0 8px 6px -6px black;
+  margin:10px 0px 10px 0px;
+}
+.bootStrap-notch{
+	position: relative;
+  background:white;
+  border:1px solid grey;
+  height:20px;
+  width:20px;
+  border-radius:15px;
+  -moz-border-radius:15px;
+  -webkit-border-radius:15px;
+  box-shadow:  inset 0 5px 15px -5px black;
+  -moz-box-shadow:  inset 0 5px 15px -5px black;
+  -moz-box-shadow:  inset 0 5px 15px -5px black;
+}
+.bootStrap-bar{
+  background:green;
+  border:1px solid grey;
+  height:20px;
+  width:20px;
+  border-radius:15px;
+  -moz-border-radius:15px;
+  -webkit-border-radius:15px;
+  box-shadow:  inset 0 5px 15px -5px black;
+  -moz-box-shadow:  inset 0 5px 15px -5px black;
+  -moz-box-shadow:  inset 0 5px 15px -5px black;
+}
+.bootStrapHover{
+  width:100%;
+  -webkit-transition: width 1.7s; /* Safari */
+    transition: width 1.7s;
+}
+.hover-bootStrap-notch{
+  left:95%;
+  -webkit-transition: left 1.7s; /* Safari */
+    transition: left 1.7s;
+}
 .js-bar-bkgnd{
   background:grey;
  width:100%;
@@ -1410,12 +1722,12 @@ transition: opacity .25s ease-in-out;
  
 }
 .nodeHover{
-  width:70%;
+  width:50%;
   -webkit-transition: width 1.7s; /* Safari */
     transition: width 1.7s;
 }
 .hover-node-notch{
-	left:95%;
+	left:90%;
 	-webkit-transition: left 1.7s; /* Safari */
     transition: left 1.7s;
 }
@@ -1458,15 +1770,64 @@ width:100%;
   -moz-box-shadow:  inset 0 5px 15px -5px black;
 }
 .ngHover{
-  width:80%;
+  width:50%;
   -webkit-transition: width 1.7s; /* Safari */
     transition: width 1.7s;
 }
 .hover-ng-notch{
+	left:90%;
+	-webkit-transition: left 1.7s; /* Safari */
+    transition: left 1.7s;
+}
+.Git-bar-bkgnd{
+  background:grey;
+  height:20px;
+width:100%;
+/*   border:1px solid black; */
+  border-radius:15px;
+  -moz-border-radius:15px;
+  -webkit-border-radius:15px;
+  box-shadow: inset 0 8px 6px -6px black;
+  -moz-box-shadow: inset 0 8px 6px -6px black;
+  -webkit-box-shadow: inset 0 8px 6px -6px black;
+  margin:10px 0px 10px 0px;
+}
+.Git-notch{
+	position: relative;
+  background:white;
+  border:1px solid grey;
+  height:20px;
+ width:20px;
+  border-radius:15px;
+  -moz-border-radius:15px;
+  -webkit-border-radius:15px;
+  box-shadow:  inset 0 5px 15px -5px black;
+  -moz-box-shadow:  inset 0 5px 15px -5px black;
+  -moz-box-shadow:  inset 0 5px 15px -5px black;
+}
+.Git-bar{
+  background:green;
+  border:1px solid grey;
+  height:20px;
+ width:20px;
+  border-radius:15px;
+  -moz-border-radius:15px;
+  -webkit-border-radius:15px;
+  box-shadow:  inset 0 5px 15px -5px black;
+  -moz-box-shadow:  inset 0 5px 15px -5px black;
+  -moz-box-shadow:  inset 0 5px 15px -5px black;
+}
+.GitHover{
+  width:75%;
+  -webkit-transition: width 1.7s; /* Safari */
+    transition: width 1.7s;
+}
+.hover-Git-notch{
 	left:95%;
 	-webkit-transition: left 1.7s; /* Safari */
     transition: left 1.7s;
 }
+
 
 /*Portfolio*/
 #work h1{
