@@ -735,6 +735,46 @@
 #htmlSkill{
 	/*border:2px solid red;*/
 }
+#ASPdotNetRow{
+  border:1px solid black;
+  border-radius:15px;
+  -webkit-border-radius:15px;
+  -moz-border-radius:15px;
+   box-shadow:  0 8px 6px -6px black;
+  -moz-box-shadow:  0 8px 6px -6px black;
+  -webkit-box-shadow:  8px 8px 6px -6px black;
+  margin:5px 0px 5px 0px;
+}
+#cSharpRow{
+  border:1px solid black;
+  border-radius:15px;
+  -webkit-border-radius:15px;
+  -moz-border-radius:15px;
+   box-shadow:  0 8px 6px -6px black;
+  -moz-box-shadow:  0 8px 6px -6px black;
+  -webkit-box-shadow:  8px 8px 6px -6px black;
+  margin:5px 0px 5px 0px;
+}
+#SQLRow{
+  border:1px solid black;
+  border-radius:15px;
+  -webkit-border-radius:15px;
+  -moz-border-radius:15px;
+   box-shadow:  0 8px 6px -6px black;
+  -moz-box-shadow:  0 8px 6px -6px black;
+  -webkit-box-shadow:  8px 8px 6px -6px black;
+  margin:5px 0px 5px 0px;
+}
+#VSRow{
+  border:1px solid black;
+  border-radius:15px;
+  -webkit-border-radius:15px;
+  -moz-border-radius:15px;
+   box-shadow:  0 8px 6px -6px black;
+  -moz-box-shadow:  0 8px 6px -6px black;
+  -webkit-box-shadow:  8px 8px 6px -6px black;
+  margin:5px 0px 5px 0px;
+}
 #htmlRow{
 	border: 1px solid black;
 	border-radius: 15px;
@@ -2178,7 +2218,46 @@ width:100%;
 /*   width:270px;
   border:1px solid black; */
 }
-
+#ASPdotNetRow{
+  border:1px solid black;
+  border-radius:15px;
+  -webkit-border-radius:15px;
+  -moz-border-radius:15px;
+   box-shadow:  0 8px 6px -6px black;
+  -moz-box-shadow:  0 8px 6px -6px black;
+  -webkit-box-shadow:  8px 8px 6px -6px black;
+  margin:5px 0px 5px 0px;
+}
+#cSharpRow{
+  border:1px solid black;
+  border-radius:15px;
+  -webkit-border-radius:15px;
+  -moz-border-radius:15px;
+   box-shadow:  0 8px 6px -6px black;
+  -moz-box-shadow:  0 8px 6px -6px black;
+  -webkit-box-shadow:  8px 8px 6px -6px black;
+  margin:5px 0px 5px 0px;
+}
+#SQLRow{
+  border:1px solid black;
+  border-radius:15px;
+  -webkit-border-radius:15px;
+  -moz-border-radius:15px;
+   box-shadow:  0 8px 6px -6px black;
+  -moz-box-shadow:  0 8px 6px -6px black;
+  -webkit-box-shadow:  8px 8px 6px -6px black;
+  margin:5px 0px 5px 0px;
+}
+#VSRow{
+  border:1px solid black;
+  border-radius:15px;
+  -webkit-border-radius:15px;
+  -moz-border-radius:15px;
+   box-shadow:  0 8px 6px -6px black;
+  -moz-box-shadow:  0 8px 6px -6px black;
+  -webkit-box-shadow:  8px 8px 6px -6px black;
+  margin:5px 0px 5px 0px;
+}
 #htmlRow{
   border:1px solid black;
   border-radius:15px;
