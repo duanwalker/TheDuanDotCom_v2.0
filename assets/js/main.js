@@ -260,7 +260,12 @@
 	   		 }
 	 		 });
 
-
+		$('#LogicAppsRow').hover(
+			function () {
+				$('.la-bar').addClass('laHover');
+				$('.la-notch').addClass('hover-la-notch')
+			}
+		)
 	    $('#ASPdotNetRow').hover(
        			function(){ 
        				$('.asp-bar').addClass('aspHover');

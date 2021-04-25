@@ -735,6 +735,16 @@
 #htmlSkill{
 	/*border:2px solid red;*/
 }
+#LogicAppsRow{
+	border: 1px solid black;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	-webkit-box-shadow: 8px 8px 6px -6px black;
+	margin: 5px 0px 5px 0px;
+}
 #ASPdotNetRow{
   border:1px solid black;
   border-radius:15px;
@@ -1149,6 +1159,16 @@ transition: opacity .25s ease-in-out;
   border:1px solid black; */
 }
 /*start panels*/
+#LogicAppsRow {
+	border: 1px solid black;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	-webkit-box-shadow: 8px 8px 6px -6px black;
+	margin: 5px 0px 5px 0px;
+}
 #ASPdotNetRow{
   border:1px solid black;
   border-radius:15px;
@@ -1269,6 +1289,62 @@ transition: opacity .25s ease-in-out;
   -webkit-box-shadow:  8px 8px 6px -6px black;
   margin:5px 0px 5px 0px;
 }
+
+/*start LA gauge*/
+.la-bar-bkgnd {
+	background: grey;
+	height: 20px;
+	width: 100%;
+	/*   border:1px solid black; */
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	box-shadow: inset 0 8px 6px -6px black;
+	-moz-box-shadow: inset 0 8px 6px -6px black;
+	-webkit-box-shadow: inset 0 8px 6px -6px black;
+	margin: 10px 0px 10px 0px;
+}
+
+.la-notch {
+	position: relative;
+	background: white;
+	border: 1px solid grey;
+	height: 20px;
+	width: 20px;
+	/*   border:1px solid black; */
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	box-shadow: inset 0 5px 15px -5px black;
+	-moz-box-shadow: inset 0 5px 15px -5px black;
+	-moz-box-shadow: inset 0 5px 15px -5px black;
+}
+
+.la-bar {
+	background: green;
+	height: 20px;
+	width: 20px;
+	/*   border:1px solid black; */
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	box-shadow: inset 0 5px 15px -5px black;
+	-moz-box-shadow: inset 0 5px 15px -5px black;
+	-moz-box-shadow: inset 0 5px 15px -5px black;
+}
+
+.laHover {
+	width: 100%;
+	-webkit-transition: width 1.7s; /* Safari */
+	transition: width 1.7s;
+}
+
+.hover-la-notch {
+	left: 95%;
+	-webkit-transition: left 1.7s; /* Safari */
+	transition: left 1.7s;
+}
+
 /*start asp gauge*/
 .asp-bar-bkgnd{
   background:grey;
@@ -2217,6 +2293,16 @@ width:100%;
 #skillsPanel{
 /*   width:270px;
   border:1px solid black; */
+}
+#LogicAppsRow {
+	border: 1px solid black;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	-webkit-box-shadow: 8px 8px 6px -6px black;
+	margin: 5px 0px 5px 0px;
 }
 #ASPdotNetRow{
   border:1px solid black;
