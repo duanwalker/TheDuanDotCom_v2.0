@@ -266,6 +266,24 @@
 				$('.la-notch').addClass('hover-la-notch')
 			}
 		)
+		$('#FnAppsRow').hover(
+			function () {
+				$('.fn-bar').addClass('fnHover');
+				$('.fn-notch').addClass('hover-fn-notch')
+			}
+		)
+		$('#AppSvcRow').hover(
+			function () {
+				$('.AppSvc-bar').addClass('AppSvcHover');
+				$('.AppSvc-notch').addClass('hover-AppSvc-notch')
+			}
+		)
+		$('#AzSQLRow').hover(
+			function () {
+				$('.AzSQL-bar').addClass('AzSQLHover');
+				$('.AzSQL-notch').addClass('hover-AzSQL-notch')
+			}
+		)
 	    $('#ASPdotNetRow').hover(
        			function(){ 
        				$('.asp-bar').addClass('aspHover');
@@ -337,6 +355,12 @@
 		       	$('.Git-bar').addClass('GitHover')
 		       	$('.Git-notch').addClass('hover-Git-notch')
 		       	 }
+		)
+		$('#PwrBIRow').hover(
+			function () {
+				$('.PwrBI-bar').addClass('PwrBIHover')
+				$('.PwrBI-notch').addClass('hover-PwrBI-notch')
+			}
 		)
 	});
 

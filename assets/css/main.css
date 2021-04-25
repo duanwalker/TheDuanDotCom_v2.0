@@ -745,6 +745,46 @@
 	-webkit-box-shadow: 8px 8px 6px -6px black;
 	margin: 5px 0px 5px 0px;
 }
+#FnAppsRow {
+	border: 1px solid black;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	-webkit-box-shadow: 8px 8px 6px -6px black;
+	margin: 5px 0px 5px 0px;
+}
+#AppSvcRow {
+	border: 1px solid black;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	-webkit-box-shadow: 8px 8px 6px -6px black;
+	margin: 5px 0px 5px 0px;
+}
+#AzSQLRow {
+	border: 1px solid black;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	-webkit-box-shadow: 8px 8px 6px -6px black;
+	margin: 5px 0px 5px 0px;
+}
+#PwrBIRow {
+	border: 1px solid black;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	-webkit-box-shadow: 8px 8px 6px -6px black;
+	margin: 5px 0px 5px 0px;
+}
 #ASPdotNetRow{
   border:1px solid black;
   border-radius:15px;
@@ -1169,6 +1209,46 @@ transition: opacity .25s ease-in-out;
 	-webkit-box-shadow: 8px 8px 6px -6px black;
 	margin: 5px 0px 5px 0px;
 }
+#FnAppsRow {
+	border: 1px solid black;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	-webkit-box-shadow: 8px 8px 6px -6px black;
+	margin: 5px 0px 5px 0px;
+}
+#AppSvcRow {
+	border: 1px solid black;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	-webkit-box-shadow: 8px 8px 6px -6px black;
+	margin: 5px 0px 5px 0px;
+}
+#AzSQLRow {
+	border: 1px solid black;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	-webkit-box-shadow: 8px 8px 6px -6px black;
+	margin: 5px 0px 5px 0px;
+}
+#PwrBIRow {
+	border: 1px solid black;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	-webkit-box-shadow: 8px 8px 6px -6px black;
+	margin: 5px 0px 5px 0px;
+}
 #ASPdotNetRow{
   border:1px solid black;
   border-radius:15px;
@@ -1334,7 +1414,7 @@ transition: opacity .25s ease-in-out;
 }
 
 .laHover {
-	width: 100%;
+	width: 80%;
 	-webkit-transition: width 1.7s; /* Safari */
 	transition: width 1.7s;
 }
@@ -1344,7 +1424,222 @@ transition: opacity .25s ease-in-out;
 	-webkit-transition: left 1.7s; /* Safari */
 	transition: left 1.7s;
 }
+/*start Fn App gauge*/
+.fn-bar-bkgnd {
+	background: grey;
+	height: 20px;
+	width: 100%;
+	/*   border:1px solid black; */
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	box-shadow: inset 0 8px 6px -6px black;
+	-moz-box-shadow: inset 0 8px 6px -6px black;
+	-webkit-box-shadow: inset 0 8px 6px -6px black;
+	margin: 10px 0px 10px 0px;
+}
 
+.fn-notch {
+	position: relative;
+	background: white;
+	border: 1px solid grey;
+	height: 20px;
+	width: 20px;
+	/*   border:1px solid black; */
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	box-shadow: inset 0 5px 15px -5px black;
+	-moz-box-shadow: inset 0 5px 15px -5px black;
+	-moz-box-shadow: inset 0 5px 15px -5px black;
+}
+
+.fn-bar {
+	background: green;
+	height: 20px;
+	width: 20px;
+	/*   border:1px solid bfnck; */
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	box-shadow: inset 0 5px 15px -5px black;
+	-moz-box-shadow: inset 0 5px 15px -5px black;
+	-moz-box-shadow: inset 0 5px 15px -5px black;
+}
+
+.fnHover {
+	width: 50%;
+	-webkit-transition: width 1.7s; /* Safari */
+	transition: width 1.7s;
+}
+
+.hover-fn-notch {
+	left: 95%;
+	-webkit-transition: left 1.7s; /* Safari */
+	transition: left 1.7s;
+}
+/*start App Svc gauge*/
+.AppSvc-bar-bkgnd {
+	background: grey;
+	height: 20px;
+	width: 100%;
+	/*   border:1px solid black; */
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	box-shadow: inset 0 8px 6px -6px black;
+	-moz-box-shadow: inset 0 8px 6px -6px black;
+	-webkit-box-shadow: inset 0 8px 6px -6px black;
+	margin: 10px 0px 10px 0px;
+}
+
+.AppSvc-notch {
+	position: relative;
+	background: white;
+	border: 1px solid grey;
+	height: 20px;
+	width: 20px;
+	/*   border:1px solid black; */
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	box-shadow: inset 0 5px 15px -5px black;
+	-moz-box-shadow: inset 0 5px 15px -5px black;
+	-moz-box-shadow: inset 0 5px 15px -5px black;
+}
+
+.AppSvc-bar {
+	background: green;
+	height: 20px;
+	width: 20px;
+	/*   border:1px solid black; */
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	box-shadow: inset 0 5px 15px -5px black;
+	-moz-box-shadow: inset 0 5px 15px -5px black;
+	-moz-box-shadow: inset 0 5px 15px -5px black;
+}
+
+.AppSvcHover {
+	width: 50%;
+	-webkit-transition: width 1.7s; /* Safari */
+	transition: width 1.7s;
+}
+
+.hover-AppSvc-notch {
+	left: 95%;
+	-webkit-transition: left 1.7s; /* Safari */
+	transition: left 1.7s;
+}
+/*start AzSQL gauge*/
+.AzSQL-bar-bkgnd {
+	background: grey;
+	height: 20px;
+	width: 100%;
+	/*   border:1px solid black; */
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	box-shadow: inset 0 8px 6px -6px black;
+	-moz-box-shadow: inset 0 8px 6px -6px black;
+	-webkit-box-shadow: inset 0 8px 6px -6px black;
+	margin: 10px 0px 10px 0px;
+}
+
+.AzSQL-notch {
+	position: relative;
+	background: white;
+	border: 1px solid grey;
+	height: 20px;
+	width: 20px;
+	/*   border:1px solid black; */
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	box-shadow: inset 0 5px 15px -5px black;
+	-moz-box-shadow: inset 0 5px 15px -5px black;
+	-moz-box-shadow: inset 0 5px 15px -5px black;
+}
+
+.AzSQL-bar {
+	background: green;
+	height: 20px;
+	width: 20px;
+	/*   border:1px solid black; */
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	box-shadow: inset 0 5px 15px -5px black;
+	-moz-box-shadow: inset 0 5px 15px -5px black;
+	-moz-box-shadow: inset 0 5px 15px -5px black;
+}
+
+.AzSQLHover {
+	width: 75%;
+	-webkit-transition: width 1.7s; /* Safari */
+	transition: width 1.7s;
+}
+
+.hover-AzSQL-notch {
+	left: 95%;
+	-webkit-transition: left 1.7s; /* Safari */
+	transition: left 1.7s;
+}
+/*start PwrBI gauge*/
+.PwrBI-bar-bkgnd {
+	background: grey;
+	height: 20px;
+	width: 100%;
+	/*   border:1px solid black; */
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	box-shadow: inset 0 8px 6px -6px black;
+	-moz-box-shadow: inset 0 8px 6px -6px black;
+	-webkit-box-shadow: inset 0 8px 6px -6px black;
+	margin: 10px 0px 10px 0px;
+}
+
+.PwrBI-notch {
+	position: relative;
+	background: white;
+	border: 1px solid grey;
+	height: 20px;
+	width: 20px;
+	/*   border:1px solid black; */
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	box-shadow: inset 0 5px 15px -5px black;
+	-moz-box-shadow: inset 0 5px 15px -5px black;
+	-moz-box-shadow: inset 0 5px 15px -5px black;
+}
+
+.PwrBI-bar {
+	background: green;
+	height: 20px;
+	width: 20px;
+	/*   border:1px solid black; */
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	box-shadow: inset 0 5px 15px -5px black;
+	-moz-box-shadow: inset 0 5px 15px -5px black;
+	-moz-box-shadow: inset 0 5px 15px -5px black;
+}
+
+.PwrBIHover {
+	width: 75%;
+	-webkit-transition: width 1.7s; /* Safari */
+	transition: width 1.7s;
+}
+
+.hover-PwrBI-notch {
+	left: 95%;
+	-webkit-transition: left 1.7s; /* Safari */
+	transition: left 1.7s;
+}
 /*start asp gauge*/
 .asp-bar-bkgnd{
   background:grey;
@@ -1489,7 +1784,7 @@ transition: opacity .25s ease-in-out;
  
 }
 .SQLHover{
-  width:58%;
+  width:75%;
   -webkit-transition: width 1.7s; /* Safari */
     transition: width 1.7s;
 }
@@ -2295,6 +2590,46 @@ width:100%;
   border:1px solid black; */
 }
 #LogicAppsRow {
+	border: 1px solid black;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	-webkit-box-shadow: 8px 8px 6px -6px black;
+	margin: 5px 0px 5px 0px;
+}
+#FnAppsRow {
+	border: 1px solid black;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	-webkit-box-shadow: 8px 8px 6px -6px black;
+	margin: 5px 0px 5px 0px;
+}
+#AppSvcRow {
+	border: 1px solid black;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	-webkit-box-shadow: 8px 8px 6px -6px black;
+	margin: 5px 0px 5px 0px;
+}
+#AzSQLRow {
+	border: 1px solid black;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	-webkit-box-shadow: 8px 8px 6px -6px black;
+	margin: 5px 0px 5px 0px;
+}
+#PwrBIRow {
 	border: 1px solid black;
 	border-radius: 15px;
 	-webkit-border-radius: 15px;
